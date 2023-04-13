@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: palevioletred;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  body {
+    background-color: grey;
+    width: auto;
+  }
+  h1 {
+    color: blue;
+  }
+  .first{
+    color: rgb(78, 78, 138);
+    font-style: italic;
+    font-weight: 700;
+  }
+  p {
+    color: rgb(236, 206, 149);
+  }
+.blog-header{
+    width: 200px;
+    background-size: cover;
+}
+
+#blog .food-details{
+    width: 50%;
+}
+
+#blog .food-details {
+    text-decoration: none;
+    font-size: 11px;
+    color: #000;
+    font-weight: 700;  
+    position: relative;
+    transition: 0.3s;
+}
+
+#newsletter{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
+  height: 100px;
+  margin-bottom:  5px;
+  margin-top: 5px;
+  padding: 5px;
+}
+#newsletter h4{
+  font-size: 22px;
+  font-weight: 700;
+  color:#fff;
+}
+#newsletter p{
+  font-size: 14px;
+  font-weight: 600;
+  color: #818ea0
+}
+
+#newsletter p span{
+  color: #ffbd27;
+}
+
+#newsletter .form {
+  display: flex;
+  width: 40%;
+}
+
+#newsletter input{
+  height: 3.125rem;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+
+}
+#newsletter button{
+  background-color: #088178;
+  color: #FFf;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+
+}
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+
+}
+
+footer .logo{
+  margin-bottom: 30px;
+}
+
+footer h4{
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer p{
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+
+footer a{
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+footer .follow{
+  margin-top: 20px;
+}
+
+footer .follow{
+  color: #465b52;
+  padding-right: 4px;
+  cursor: pointer;
+}
+
+footer .install .row img{
+  border: 1px solid #088178;
+  border-radius: 6px;
+}
+
+footer .install img{
+  margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+  color: #ef3636
+}
+
+footer .copyright{
+  width: 100%;
+  text-align: center;
+}
