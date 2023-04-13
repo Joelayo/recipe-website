@@ -1,0 +1,19 @@
+h1, h2 {
+    text-align: center;
+  }
+  
+  p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+  }
+  
+  ul {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    list-style: none;
+  }
+  
