@@ -1,1 +1,35 @@
-<p>blog works!</p>
+<h1>About Us</h1>
+<div>
+    <p>Welcome to our website! At {{companyname}}, we are passionate about [what your company does or provides]. Our
+        mission is to [your company's mission statement or goals].</p>
+
+    <p>Since our founding in [year], we have been dedicated to [what sets your company apart or makes it unique]. We
+        believe in [core values or principles that guide your company]. We are committed to [what your company does to
+        ensure customer satisfaction or quality service].</p>
+
+    <p>Our team is made up of [number] individuals who bring a diverse set of skills and experiences to our work. We are
+        proud to employ some of the most talented and dedicated professionals in the industry. Together, we work
+        tirelessly to [what your team does to achieve your company's goals or vision].</p>
+
+    <p>We believe in giving back to our community and supporting causes that align with our values. That's why we
+        regularly donate [time/money/resources] to organizations such as [list of charities or non-profits that your
+        company supports].</p>
+
+    <p>Thank you for considering {{companyname}} for your [what your company provides]. We look forward to [what you hope
+        to achieve for your customers or clients].</p>
+</div>
+<div class="enny">
+
+
+<h2>Our Team</h2>
+
+<p>Meet the people behind our company:</p>
+
+<div class="arrange">
+    <ul *ngFor="let item of team">
+        <li>{{item.name}} - {{item.position}}</li>
+        
+    </ul>
+</div>
+
+</div>

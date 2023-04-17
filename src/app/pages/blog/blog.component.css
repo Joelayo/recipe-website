@@ -1,0 +1,17 @@
+h1, h2 {
+    text-align: center;
+  }
+  
+  p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+  }
+  
+  .enny{
+     padding: 20px;
+     margin: 20px;
+  }
+
+  .arrange{
+      padding: 10px;
+  }
