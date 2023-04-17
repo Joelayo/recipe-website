@@ -7,10 +7,18 @@ import { RecipeComponent } from './pages/recipe/recipe.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
+<<<<<<< HEAD
 {path: 'contact', component: ContactComponent},
 {path: 'home', component: HomeComponent},
 {path: 'blog', component: BlogComponent},
 {path: 'recipe', component: RecipeComponent}
+=======
+  {path: 'home', component: HomeComponent},
+  {path: 'contact', component: ContactComponent},
+  {path: 'blog', component: BlogComponent},
+  {path: 'recipe', component: RecipeComponent}
+
+>>>>>>> af6a479c44c3c773980b9f2eaedc76e43bcf3c34
 ];
 
 @NgModule({
