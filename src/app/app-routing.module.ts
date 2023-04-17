@@ -6,10 +6,11 @@ import { BlogComponent } from './pages/blog/blog.component';
 import { RecipeComponent } from './pages/recipe/recipe.component';
 
 const routes: Routes = [
-{path: 'contact', component: ContactComponent},
-{path: 'home', component: HomeComponent},
-{path: 'blog', component: BlogComponent},
-{path: 'recipe', component: RecipeComponent}
+  {path: '', component: HomeComponent},
+  {path: 'home', component: HomeComponent},
+  {path: 'contact', component: ContactComponent},
+  {path: 'blog', component: BlogComponent},
+  {path: 'recipe', component: RecipeComponent}
 
 ];
 
