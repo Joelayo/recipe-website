@@ -1,0 +1,43 @@
+footer {
+    background-color: #fafafa;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  a {
+    color: #333;
+    font-size: 1.5rem;
+  }
+  
+  a:hover {
+    color: #ff7f50;
+  }
+  
+  i {
+    font-size: 2rem;
+  }
+  
